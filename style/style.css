@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: beige;
+    background-image: url('../img/textura.jpg');
+    background-repeat: repeat;
+    background-position: 0px 10px;
+    background-size: 320px;
+    text-align: center;
+}
+
+header {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 120px;
+    height: 120px;
+    border: 3px solid #B392AC;
+    border-radius: 80px;
+}
+
+#perfil {
+    width: 123px;
+    height: auto;
+    z-index: -10;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    margin-bottom: 40px;
+    font-weight: normal;
+    color: #735D78;
+}
+
+section {
+    display: flex;
+    height: 44vh;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.botao {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: #B392AC;
+    height: 60px;
+    width: 500px;
+    margin: 0px auto;
+}
+
+i {
+    position: absolute;
+    left: 20px;
+    font-size: 1.2em;
+    color: #ebdee5;
+}
+
+.fa-tiktok {
+    font-size: 1em;
+}
+
+#logo {
+    margin-top: 30px;
+    width: 45px;
+    height: auto;
+}
+
+@media (max-width: 700px) {
+    .botao {
+        width: 70%;
+    }
+}
