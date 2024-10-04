@@ -3,16 +3,17 @@
 
 * {
     color: black;
-    font-family: 'Raleway', sans-serif;
+    font-family:'Montserrat', sans-serif;
+    padding: 0;
 }
 
 body {
-    background-color: beige;
-    background-image: url('../img/textura.jpg');
-    background-repeat: repeat;
-    background-position: 0px 10px;
-    background-size: 320px;
-    text-align: center;
+    background-color: #DBBEB6;
+    background-image: url('../img/fundo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
 }
 
 header {
@@ -30,7 +31,6 @@ header {
     margin-top: 30px;
     width: 120px;
     height: 120px;
-    border: 3px solid #B392AC;
     border-radius: 80px;
 }
 
@@ -45,7 +45,7 @@ h1 {
     font-size: 35px;
     margin-bottom: 40px;
     font-weight: normal;
-    color: #735D78;
+    color: #2D432C;
 }
 
 section {
@@ -53,7 +53,7 @@ section {
     height: 44vh;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .botao {
@@ -66,7 +66,7 @@ section {
     color: white;
     font-size: 20px;
     border-radius: 30px;
-    background-color: #B392AC;
+    background-color: #6E1146;
     height: 60px;
     width: 500px;
     margin: 0px auto;
@@ -83,10 +83,17 @@ i {
     font-size: 1em;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #logo {
-    margin-top: 30px;
-    width: 45px;
+    margin-top: 13px;
+    width: 70px;
     height: auto;
+
 }
 
 @media (max-width: 700px) {
