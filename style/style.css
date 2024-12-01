@@ -9,7 +9,7 @@
 
 body {
     background-color: #DBBEB6;
-    background-image: url('../img/fundo-hor.png');
+    background-image: url('../img/fundo-hor.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -98,7 +98,7 @@ footer {
 
 @media (max-width: 700px) {
     body {
-        background-image: url('../img/fundo-ver.png');
+        background-image: url('../img/fundo-ver.webp');
     }
 
     #perfil {
